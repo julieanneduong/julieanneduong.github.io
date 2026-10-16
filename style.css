@@ -1,0 +1,88 @@
+/* ===== Couleur principale du site ===== */
+:root {
+	/* Couleur principale (déjà en place) */
+	--bs-primary: #0F766E;
+	--bs-primary-rgb: 15, 118, 110;
+	--bs-link-color: #0F766E;
+	--bs-link-hover-color: #115E59;
+
+	/* Les fonds */
+	--bs-body-bg: ##FBFCFA;
+	--bs-light-rgb: 236, 242, 237;
+	--bs-dark-rgb: 28, 43, 38;
+}
+
+.card {
+	--bs-card-bg: #fffcf9;
+}
+
+.btn-primary {
+	--bs-btn-bg: #0F766E;
+	--bs-btn-border-color: #0F766E;
+	--bs-btn-hover-bg: #115E59;
+	--bs-btn-hover-border-color: #115E59;
+	--bs-btn-active-bg: #115E59;
+	--bs-btn-active-border-color: #115E59;
+}
+
+.btn-outline-primary {
+	--bs-btn-color: #0F766E;
+	--bs-btn-border-color: #0F766E;
+	--bs-btn-hover-bg: #0F766E;
+	--bs-btn-hover-border-color: #0F766E;
+	--bs-btn-active-bg: #115E59;
+	--bs-btn-active-border-color: #115E59;
+}
+
+body {
+	font-family: Courrier, monospace; 
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+section {
+	min-height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 60px;
+	scroll-margin-top: 56px;
+}
+
+.photo-profil {
+	width: 220px;
+	height: 220px;
+	object-fit: cover;
+}
+section {
+	padding-top: 100px;
+	padding-bottom: 60px;
+	scroll-margin-top: 56px;
+}
+
+#accueil {
+	min-height: 100vh;
+}
+
+.titre-section {
+	font-weight: 700;
+	margin-bottom: 40px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #032917;
+	display: inline-block;
+}
+
+.experience {
+	border: none;
+	border-left: 4px solid #032917;
+}
+
+.badge {
+	font-size: 0.9rem;
+	font-weight: 500;
+	padding: 8px 14px;
+}
+
+.langues li + li {
+	border-top: 1px solid var(--bs-border-color);
+}
